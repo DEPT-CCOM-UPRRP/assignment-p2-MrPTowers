@@ -11,3 +11,38 @@
     marker-end: url(#arrow-head-highlighted);
     marker-end: url(#arrow-head-highlighted-selected);
 }
+
+.container {
+	display: flex;
+}
+
+#bar, #scatter {
+	flex: column;
+}
+
+.arrow.selected {
+  	stroke: orange;
+  	stroke-width: 2.5;
+  	marker-end: url(#arrow-head-highlighted-selected);
+}
+
+.arrow.highlight {
+  	stroke: #aeaeca;
+  	stroke-width: 2;
+  	marker-end: url(#arrow-head-highlighted);
+}
+
+.point.selected {
+  	fill: orange;
+  	marker-end: url(#point-highlighted-selected);
+}
+
+.bar {
+	opacity: 0.7;
+}
+
+.bar.selected {
+  	fill: #003366;
+  	marker-end: url(#bar-highlighted-selected);
+}
+
